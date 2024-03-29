@@ -218,6 +218,7 @@ if(lstPricing.size()>0){
                                             lstPricebookUpdate.add(entry);
                                             Set_priceProduct.add(PriceProd);
                                     }
+                            //Potentially remove related to component
                                     else if(Map_priceProductExisting.get(PriceProd) != null && price.ProductComponent__r.Product__c != null && !Set_priceProduct.contains(PriceProd)){
                                             entry = new PricebookEntry(CurrencyIsoCode = price.CurrencyIsoCode,id = Map_priceProductExisting.get(PriceProd) ,IsActive=Map_pbeActiveStatus.get(price.id),Pricebook2Id = pb.id,Price__c = price.id,Product2Id = price.ProductComponent__r.Product__c, UnitPrice = price.ListRate__c, Subsidiary__c = price.Subsidiary__c);
                                             lstPricebookUpdate.add(entry);
@@ -229,6 +230,7 @@ if(lstPricing.size()>0){
                                             lstPricebookEntry.add(entry);
                                             Set_priceProduct.add(PriceProd);
                                     }
+                            //Potentially remove related to component
                                     else if(price.ProductComponent__r.Product__c != null && !Set_priceProduct.contains(PriceProd)){
                                         system.debug('**Order_PricebookEntryCreate: Out Prodcom**');
                                         entry = new PricebookEntry(CurrencyIsoCode = price.CurrencyIsoCode, IsActive=Map_pbeActiveStatus.get(price.id),Pricebook2Id = pb.id,Price__c = price.id,Product2Id = price.ProductComponent__r.Product__c, UnitPrice = price.ListRate__c, Subsidiary__c = price.Subsidiary__c);
@@ -247,7 +249,10 @@ if(lstPricing.size()>0){
 
                              }
                              else{
+                                /*
                                 
+                                //This Map_priceProductExisting had the current Product And then moved it to the new price.
+
                                 if(price.ProductComponent__r.Product__c != null){
                                     PriceProd = price.ProductComponent__r.Product__c;
                                 }    
@@ -263,13 +268,13 @@ if(lstPricing.size()>0){
                                     lstPricebookUpdate.add(entry);
                                     Set_priceProduct.add(PriceProd);
                                 }
-                                
+                                */
                              }
                              
                             
                             }
                             else{
-
+                                
                                 if(price.ProductComponent__r.Product__c != null){
                                     PriceProd = price.ProductComponent__r.Product__c;
                                 }    
@@ -285,6 +290,7 @@ if(lstPricing.size()>0){
                                     lstPricebookUpdate.add(entry);
                                     Set_priceProduct.add(PriceProd);
                                 }
+                                
                             }
                             
                         }
