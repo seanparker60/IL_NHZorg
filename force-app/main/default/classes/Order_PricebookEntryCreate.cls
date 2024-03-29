@@ -79,7 +79,7 @@ if(lstPricing.size()>0){
         }
 
         Pricebook2[] lstPricebook = [Select Subsidiary__c,isStandard,PricebookType__c,SoldInSubSegment__c,EndDate__c,StartDate__c From Pricebook2 where Subsidiary__c in:Set_Subsid AND IsActive =: true ];
-        ProductComponent__c[] lstProductComponent = [Select Product__c,MainProduct__c from ProductComponent__c where MainProduct__c in: Set_ItemGrpCom];
+        //ProductComponent__c[] lstProductComponent = [Select Product__c,MainProduct__c from ProductComponent__c where MainProduct__c in: Set_ItemGrpCom];
         Pricebook2 standardPB = [select id from Pricebook2 where isStandard=true];
 
         PricebookEntry[] lstPricebookEntryStdExist = [Select id,Product2Id, Pricebook2Id from PricebookEntry where Pricebook2Id=:standardPB.id AND Product2Id in:Set_priceProduct]; //
@@ -247,7 +247,7 @@ if(lstPricing.size()>0){
 
                              }
                              else{
-                                /*
+                                
                                 if(price.ProductComponent__r.Product__c != null){
                                     PriceProd = price.ProductComponent__r.Product__c;
                                 }    
@@ -263,7 +263,7 @@ if(lstPricing.size()>0){
                                     lstPricebookUpdate.add(entry);
                                     Set_priceProduct.add(PriceProd);
                                 }
-                                */
+                                
                              }
                              
                             
