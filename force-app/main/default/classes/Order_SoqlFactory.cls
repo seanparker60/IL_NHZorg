@@ -635,8 +635,7 @@ public with sharing class Order_SoqlFactory {
                            
         }
        else if(Type == 'UpdatePricingfromProduct'){
-            Querystr += 'AND (Product__c in:lst_ProdPriceId OR ProductComponent__r.Product__c in: lst_ProdPriceId)'
-                        +' AND EndDate__c >=: CurDate';
+            Querystr += 'AND (Product__c in:lst_ProdPriceId OR ProductComponent__r.Product__c in: lst_ProdPriceId)';
        }
   
        system.debug('**Order_SoqlFactory.returnPricing :Querystr**'+Querystr);
