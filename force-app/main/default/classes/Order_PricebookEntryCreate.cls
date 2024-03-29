@@ -252,7 +252,7 @@ if(lstPricing.size()>0){
                                 
                                 
                                 //This Map_priceProductExisting had the current Product And then moved it to the new price.
-
+                                /*
                                 if(price.ProductComponent__r.Product__c != null){
                                     PriceProd = price.ProductComponent__r.Product__c;
                                 }    
@@ -268,7 +268,7 @@ if(lstPricing.size()>0){
                                     lstPricebookUpdate.add(entry);
                                     Set_priceProduct.add(PriceProd);
                                 }
-                                
+                                */
                              }
                              
                             
