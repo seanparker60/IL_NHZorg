@@ -247,6 +247,7 @@ if(lstPricing.size()>0){
 
                              }
                              else{
+                                /*
                                 if(price.ProductComponent__r.Product__c != null){
                                     PriceProd = price.ProductComponent__r.Product__c;
                                 }    
@@ -262,7 +263,7 @@ if(lstPricing.size()>0){
                                     lstPricebookUpdate.add(entry);
                                     Set_priceProduct.add(PriceProd);
                                 }
-    
+                                */
                              }
                              
                             
