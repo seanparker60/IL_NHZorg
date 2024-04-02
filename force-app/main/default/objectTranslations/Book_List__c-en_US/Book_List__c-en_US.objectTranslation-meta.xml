@@ -8,5 +8,10 @@
         <plural>true</plural>
         <value>Book List</value>
     </caseValues>
+    <recordTypes>
+        <description/>
+        <label/>
+        <name>Book_List_LI</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

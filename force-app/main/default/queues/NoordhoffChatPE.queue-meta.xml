@@ -4,15 +4,12 @@
     <name>Chat PE</name>
     <queueMembers>
         <users>
-            <user>jgrove@il.infinitaslearning.com</user>
+            <user>suser@il.infinitaslearning.com</user>
         </users>
     </queueMembers>
     <queueRoutingConfig>ChatRouting</queueRoutingConfig>
     <queueSobject>
         <sobjectType>Case</sobjectType>
-    </queueSobject>
-    <queueSobject>
-        <sobjectType>MessagingEndUser</sobjectType>
     </queueSobject>
     <queueSobject>
         <sobjectType>MessagingSession</sobjectType>
