@@ -3,300 +3,558 @@
     <layouts>
         <layout>B2B Account Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Merging information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>New Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Size</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B Educational Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Size</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B Educational Layout - Legacy</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Size</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B Educational Locations Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Size</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B Non Educational Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B Non Educational Layout - Legacy</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B Purchasing Groups Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Size</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B Purchasing Groups Layout - Legacy</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing Section</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Size</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B/B2C Authors</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2B/B2C Authors - Legacy</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2C Private Individuals</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing</section>
         </sections>
     </layouts>
     <layouts>
         <layout>B2C Private Individuals - Legacy</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Description</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Order &amp; Invoicing</section>
         </sections>
     </layouts>
     <layouts>
         <layout>Location Account Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Merging information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Segment</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Size</section>
         </sections>
     </layouts>
+    <recordTypes>
+        <description/>
+        <label/>
+        <name>B2B_Educational_Location</name>
+    </recordTypes>
+    <recordTypes>
+        <description/>
+        <label/>
+        <name>B2bB2cAuthors</name>
+    </recordTypes>
+    <recordTypes>
+        <description/>
+        <label/>
+        <name>B2BEducational</name>
+    </recordTypes>
+    <recordTypes>
+        <description/>
+        <label/>
+        <name>B2BNonEducational</name>
+    </recordTypes>
+    <recordTypes>
+        <description/>
+        <label/>
+        <name>B2BPurchasingGroups</name>
+    </recordTypes>
+    <recordTypes>
+        <description/>
+        <label/>
+        <name>B2C_Private_Individuals</name>
+    </recordTypes>
+    <recordTypes>
+        <label/>
+        <name>B2CIndividual</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage/>
+        <name>Billing_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>BillingReminder_2_Cannot_Be_Same_as_BR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>BlockReasonDeactivated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>BlockVendorDMLSalesforce</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Communication_Language</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>CorrectNumberofSubsidiariesperOpco</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Courier_Info</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Customer_Category</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Customer_Discount_Group</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>EmailIntegrationfactorySendCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Emails_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>InvoiceEmail2_Cant_Be_Same_as_InvoiceEma</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Invoicing_Frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>LegalNameIntegrationFactorySend</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>max20CharVatNumbers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Must_Have_Professional_Set_To_True</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Name_Max_Character_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>NoAccountSubsidiaryIntegrationFactorySen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>NoBillingOrShippingAddress</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>NoInvoiceOnBlock</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>OperatingAccountPlantynAreaRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>OperatingCompany</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>PhoneFormatValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Professional_must_be_False</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Shipping_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ShippingRuleIntegrationFactorySendCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>StreamNumberOnlyAllowedForWarehouseRef</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Validate_ECIN_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Validate_IntegrationErrors</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Validate_PackingSlipName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ValidateAuthorName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ValidateCourierInfo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ValidateFulfillmentLoactionOpCo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ValidatePhone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>VAT_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>VAT_Number_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>VATIntegrationfctorySendCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>WarehouseActiveCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>WarehouseReferenceOnlyNumeric</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>WebaddressBeginswithHttp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Website_Cannot_Contain_Spaces</name>
+    </validationRules>
+    <webLinks>
+        <label/>
+        <name>Authors</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>MethodsInUse</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>NetSuite</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>NewOrderv2</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>SpecialPersons</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>Teachers</name>
+    </webLinks>
 </CustomObjectTranslation>

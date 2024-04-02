@@ -11,17 +11,29 @@
     <layouts>
         <layout>Knowledge</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Content details</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Properties</section>
         </sections>
     </layouts>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage/>
+        <name>Check_at_least_one_Market_Group</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>NextReviewDate_cant_be_in_the_past</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>OperatingCompany</name>
+    </validationRules>
 </CustomObjectTranslation>
