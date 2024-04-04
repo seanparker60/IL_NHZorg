@@ -165,9 +165,7 @@ Public static List<Order> insertOrderHeader(Integer Count,List<Account> lst_Acc,
                         ord.DigitalActivationEmail__c = acc.DigitalActivationEmail__c ;
                         ord.InvoiceEmail__c =  acc.InvoicingEmail__c ;
                         ord.InvoiceEmail2__c =  acc.InvoiceEmail2__c ;
-                        ord.OrderNotificationEmail__c = 'test@test.com' ;
-                        ord.OrderNotificationEmail2__c = ord.OrderNotificationEmail__c;
-                        ord.shipToAttentionOf__c = 'John Doe';
+                        ord.OrderNotificationEmail__c = acc.OrderNotificationEmail__c ;
 
                         lst_Order.add(ord);
                     }
@@ -224,14 +222,13 @@ Public static List<OrderItem> insertOrderItems(Integer Count,List<Account> lstAc
                     ordItem.NetsuiteInternalId__c = '3456'+i;
                     ordItem.PricebookEntryId  = pbe.id ; 
                     ordItem.ComponentListPrice__c = 123;
-                    ordItem.ProductType__c = 'Non-inventory Item';
+
                     ordItem.ShippingCity__c =acc.ShippingCity;
                     ordItem.ShippingCountry__c =acc.ShippingCountry;
                     ordItem.ShippingPostalCode__c=acc.ShippingPostalCode ;
                     ordItem.ShippingState__c=acc.ShippingState;
                     ordItem.ShippingStreet__c  =acc.ShippingStreet;
                     ordItem.orderImportNumber__c = '1111'+i;
-                    ordItem.DigitalActivationEmail__c ='test@test.com';
                     if(doInsert) {
                         ordItem.ManualDiscount__c ='One-Off Percentage';
                         ordItem.ManualDiscountPercent__c=1;
@@ -360,15 +357,13 @@ Public static List<Product2> insertProducts(Integer Count,Boolean doInsert){
             prod.HasBlock__c= false;
             prod.VAT__c = 'Low';
             prod.ISBN__c = '99-9999-999'+i;
-            prod.EAN__c = '88-88-uiuy-88'+i; 
+            prod.EAN__c = '88-88-uiuy-88'+i;
             prod.Weight__c = 1;
             prod.CoreLicense__c =true;
             prod.LicenseDuration__c = '6';
             prod.FixedStartDate__c = system.today()-5;
             prod.MarketSegment__c = 'SecondaryEducation';
             prod.SoldInSegment__c = 'SecondaryEducation';
-            prod.CustomPricingAllowed__c = true;
-            prod.Type__c = 'Non-inventory Item';
            // prod.Renewal__c = 'Automatic';
             lst_prod.add(prod);
     }     
@@ -383,7 +378,7 @@ Public static List<Product2> insertProducts(Integer Count,Boolean doInsert){
 //INSERT PRICEBOOKS
 Public static Pricebook2 insertPricebook(){
  
-    Pricebook2 standardPricebook = new Pricebook2(Id = Test.getStandardPricebookId(),StartDate__c= system.today()-16,EndDate__c = system.today()+116,PricebookType__c='PrimaryEducation', IsActive = true,Subsidiary__c = 'Plantyn',IndexationPercentage__c =5);
+    Pricebook2 standardPricebook = new Pricebook2(Id = Test.getStandardPricebookId(),StartDate__c= system.today()-16,EndDate__c = system.today()+116,PricebookType__c='PrimaryEducation', IsActive = true,Subsidiary__c = 'Plantyn');
 
     update standardPricebook;
 
@@ -395,7 +390,7 @@ Public static Pricebook2 insertPricebookCustom(String PBName){
     OrderRequestPricebook__mdt[] OrderRequestPricebook = [Select Pricebook__c,OperatingCompany__c from OrderRequestPricebook__mdt where OperatingCompany__c ='Plantyn'   ];
 
 
-    Pricebook2 CustomPricebook = new Pricebook2(Name= OrderRequestPricebook[0].Pricebook__c /*PBName*/,StartDate__c= system.today()-16,EndDate__c = system.today()+116,PricebookType__c='PrimaryEducation', IsActive = true,Subsidiary__c = 'Plantyn',IndexationPercentage__c =5);
+    Pricebook2 CustomPricebook = new Pricebook2(Name= OrderRequestPricebook[0].Pricebook__c /*PBName*/,StartDate__c= system.today()-16,EndDate__c = system.today()+116,PricebookType__c='PrimaryEducation', IsActive = true,Subsidiary__c = 'Plantyn');
 
     Insert CustomPricebook;
 
@@ -442,7 +437,7 @@ Public static List<Asset> insertAsset(Id Pricebook ,List<Product2> lst_prod,List
     
     
         
-    
+        
         for(Account acc:lst_Billto){   
             
             
@@ -462,24 +457,17 @@ Public static List<Asset> insertAsset(Id Pricebook ,List<Product2> lst_prod,List
                 asset.CancellationReason__c = null;
                 asset.IsActive__c = true;
                 asset.RenewalDate__c =system.today();
-                asset.RenewalRunDate__c = system.today();
                 asset.PricingMethod__c ='OrderProductQuantity';
-                asset.DigitalActivationEmail__c = 'test@test.com';
+    
                 asset.UsageEndDate = system.today()+22;
                 asset.PurchaseDate = system.today()-2;
-                
-                asset.ApplyIndexationPercentage__c = true;
-                asset.ManualDiscount__c = 'Recurring Percentage';
-                asset.ManualDiscountPercent__c = 6;
-                asset.IndexationPercentage__c = 5;
-                asset.ListPrice__c = 100;
+    
                 asset.Quantity = 100;
                 asset.SoldUsers__c = 100;
                 asset.NumberofActiveUsers__c = 100;
                 asset.BillToAccount__c = acc.id;
                 asset.AccountId = acc.id;
                 lst_Asset.add(asset);        
-               
             }  
             /*
             for(Asset ass:lst_Asset){

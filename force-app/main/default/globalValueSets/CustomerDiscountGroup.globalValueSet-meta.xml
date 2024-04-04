@@ -366,22 +366,21 @@
         <label>Reseller Discount Incremental</label>
     </customValue>
     <customValue>
+        <fullName>Reseller 3 %</fullName>
+        <default>false</default>
+        <label>Reseller 3 %</label>
+    </customValue>
+    <customValue>
         <fullName>Reseller </fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Reseller </label>
     </customValue>
     <customValue>
-        <fullName>Membership 2</fullName>
+        <fullName>School Group </fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Membership 2</label>
-    </customValue>
-    <customValue>
-        <fullName>Membership 1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Membership 1</label>
+        <label>School Group </label>
     </customValue>
     <customValue>
         <fullName>B2B</fullName>
@@ -390,10 +389,16 @@
         <label>B2B</label>
     </customValue>
     <customValue>
-        <fullName>School Group </fullName>
+        <fullName>Membership 1</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>School Group </label>
+        <label>Membership 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Membership 2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Membership 2</label>
     </customValue>
     <customValue>
         <fullName>Partner </fullName>

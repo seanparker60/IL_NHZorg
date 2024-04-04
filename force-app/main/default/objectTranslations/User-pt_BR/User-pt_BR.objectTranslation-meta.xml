@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label/>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
     <layouts>
         <layout>User Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Custom Links</section>
         </sections>
     </layouts>
@@ -11,20 +15,28 @@
         <layout>User Profile Layout</layout>
         <layoutType>UserAlt</layoutType>
         <sections>
-            <label></label>
+            <label/>
             <section>About</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Background</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Contact</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Service Cloud Settings</section>
         </sections>
     </layouts>
+    <validationRules>
+        <errorMessage/>
+        <name>FederationIdentifier</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Only_SysAdmin_can_change_Name_Email</name>
+    </validationRules>
 </CustomObjectTranslation>
