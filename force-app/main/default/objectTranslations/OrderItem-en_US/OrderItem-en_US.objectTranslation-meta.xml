@@ -3,47 +3,135 @@
     <layouts>
         <layout>Copy of Order Product Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Delivery Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Product Information</section>
         </sections>
     </layouts>
     <layouts>
         <layout>Order Product Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Admin Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Discounts</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Item Group Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Pricing</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Product Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Shipping Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Subscription Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Validations</section>
         </sections>
     </layouts>
+    <validationRules>
+        <errorMessage/>
+        <name>ActivateAccountSubsidiaryRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ActivateDigitalActivationEmailRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ActivateNetSuiteId</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ActivateShippingAddressRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>CannotSellLicenseMoreThan12Months</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>CanthaveNegativeDiscount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ItemGroupIsBlockedActivation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>MaxProductQuantity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>NetSalesPriceCantbenegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>NetsuiteQuantityMustbegreaterthanZero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>OrderLineTypeCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ProductComponentNonRenewable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>Validate_Order_Item_Reference_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>ValidateDigitalforNetherlands</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>zRemValidate_Order_Item_Reference_Number</name>
+    </validationRules>
+    <webLinks>
+        <label/>
+        <name>AddShipTo</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>ManageProducts</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>RemoveShipto</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>Update_Hfdstructuurs</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>Update_References</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>UpdateShippingInfo</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>ViewOrderProducts</name>
+    </webLinks>
 </CustomObjectTranslation>

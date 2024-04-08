@@ -11,9 +11,13 @@
     <layouts>
         <layout>Onboarding Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Custom Links</section>
         </sections>
     </layouts>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage/>
+        <name>StageChange</name>
+    </validationRules>
 </CustomObjectTranslation>

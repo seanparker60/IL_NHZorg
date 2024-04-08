@@ -11,17 +11,29 @@
     <layouts>
         <layout>Account Subsidiary Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Credit Information</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Customer Status</section>
         </sections>
     </layouts>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage/>
+        <name>CantIntegrateInactiveDeleted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>NoManualUpdatewithInactive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage/>
+        <name>OutstandingBalanceCheck</name>
+    </validationRules>
 </CustomObjectTranslation>

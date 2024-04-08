@@ -50,7 +50,7 @@
                 <field>PricingMethod__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>MessagingName__c</field>
             </layoutItems>
             <layoutItems>

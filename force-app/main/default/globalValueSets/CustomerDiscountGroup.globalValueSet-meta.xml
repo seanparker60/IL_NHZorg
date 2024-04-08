@@ -341,6 +341,11 @@
         <label>Dilibel</label>
     </customValue>
     <customValue>
+        <fullName>Reseller 3%</fullName>
+        <default>false</default>
+        <label>Reseller 3%</label>
+    </customValue>
+    <customValue>
         <fullName>Reseller 5%</fullName>
         <default>false</default>
         <label>Reseller 5%</label>
@@ -366,22 +371,16 @@
         <label>Reseller Discount Incremental</label>
     </customValue>
     <customValue>
-        <fullName>Reseller </fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Reseller </label>
-    </customValue>
-    <customValue>
-        <fullName>Membership 2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Membership 2</label>
-    </customValue>
-    <customValue>
         <fullName>Membership 1</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Membership 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner </fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Partner </label>
     </customValue>
     <customValue>
         <fullName>B2B</fullName>
@@ -396,10 +395,16 @@
         <label>School Group </label>
     </customValue>
     <customValue>
-        <fullName>Partner </fullName>
+        <fullName>Reseller </fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Partner </label>
+        <label>Reseller </label>
+    </customValue>
+    <customValue>
+        <fullName>Membership 2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Membership 2</label>
     </customValue>
     <masterLabel>Customer Discount Group</masterLabel>
     <sorted>false</sorted>

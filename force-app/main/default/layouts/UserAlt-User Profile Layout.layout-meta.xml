@@ -81,7 +81,7 @@
         <label>Service Cloud Settings</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>MessagingName__c</field>
             </layoutItems>
             <layoutItems>

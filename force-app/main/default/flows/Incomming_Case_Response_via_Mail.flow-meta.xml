@@ -6,7 +6,7 @@
         <name>Set_owner_to_Knowledge</name>
         <label>Set owner to Knowledge Help</label>
         <locationX>50</locationX>
-        <locationY>1055</locationY>
+        <locationY>1271</locationY>
         <assignmentItems>
             <assignToReference>Get_Case.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -22,7 +22,10 @@
         <name>Case_Status</name>
         <label>Case Status</label>
         <locationX>270</locationX>
-        <locationY>431</locationY>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>Operating_Company</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>New</name>
@@ -84,13 +87,50 @@
             </connector>
             <label>Pending</label>
         </rules>
+        <rules>
+            <name>Closed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Case.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Case</targetReference>
+            </connector>
+            <label>Closed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Incomming_or_Outgoing</name>
+        <label>Incomming or Outgoing?</label>
+        <locationX>600</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Outgoing</defaultConnectorLabel>
+        <rules>
+            <name>Incomming</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Incoming</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Case</targetReference>
+            </connector>
+            <label>Incomming</label>
+        </rules>
     </decisions>
     <decisions>
         <description>What Operating Company does the Case belong to?</description>
         <name>Operating_Company</name>
         <label>Operating Company</label>
         <locationX>270</locationX>
-        <locationY>731</locationY>
+        <locationY>947</locationY>
         <defaultConnector>
             <targetReference>Update_Case</targetReference>
         </defaultConnector>
@@ -146,7 +186,7 @@
         <name>Owner_is_Openstaande_Klantvragen_queues</name>
         <label>Owner is Openstaande Klantvragen queues?</label>
         <locationX>182</locationX>
-        <locationY>839</locationY>
+        <locationY>1055</locationY>
         <defaultConnector>
             <targetReference>Update_Case</targetReference>
         </defaultConnector>
@@ -190,11 +230,67 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Case</name>
+        <label>Create Case</label>
+        <locationX>490</locationX>
+        <locationY>647</locationY>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>Get_Case.AccountId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ContactId</field>
+            <value>
+                <elementReference>Get_Case.ContactId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Description</field>
+            <value>
+                <elementReference>$Record.TextBody</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OperatingCompany__c</field>
+            <value>
+                <elementReference>Get_Case.OperatingCompany__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Email</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Get_Case.QueueID__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>SourceId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>$Record.Subject</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
     <recordLookups>
         <name>Get_Case</name>
         <label>Get Case</label>
         <locationX>270</locationX>
-        <locationY>323</locationY>
+        <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Case_Status</targetReference>
@@ -215,7 +311,7 @@
         <name>Get_Knowledge_Help_queue_id</name>
         <label>Get Knowledge Help queue id</label>
         <locationX>50</locationX>
-        <locationY>947</locationY>
+        <locationY>1163</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Set_owner_to_Knowledge</targetReference>
@@ -243,23 +339,16 @@
         <name>Update_Case</name>
         <label>Update Case</label>
         <locationX>270</locationX>
-        <locationY>1331</locationY>
+        <locationY>1547</locationY>
         <inputReference>Get_Case</inputReference>
     </recordUpdates>
     <start>
-        <locationX>144</locationX>
+        <locationX>474</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_Case</targetReference>
+            <targetReference>Incomming_or_Outgoing</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
-        <filters>
-            <field>Incoming</field>
-            <operator>EqualTo</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </filters>
         <filters>
             <field>ParentId</field>
             <operator>IsNull</operator>

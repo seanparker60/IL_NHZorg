@@ -11,13 +11,17 @@
     <layouts>
         <layout>first release partner Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Parameters</section>
         </sections>
     </layouts>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage/>
+        <name>QuantityOneOrPlus</name>
+    </validationRules>
 </CustomObjectTranslation>

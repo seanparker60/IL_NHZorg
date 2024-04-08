@@ -3,23 +3,63 @@
     <layouts>
         <layout>Contact Clone Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication Details</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Scoring</section>
         </sections>
     </layouts>
     <layouts>
         <layout>Contact Layout</layout>
         <sections>
-            <label></label>
+            <label/>
             <section>Communication Details</section>
         </sections>
         <sections>
-            <label></label>
+            <label/>
             <section>Scoring</section>
         </sections>
     </layouts>
+    <validationRules>
+        <errorMessage/>
+        <name>OperatingCompany</name>
+    </validationRules>
+    <webLinks>
+        <label/>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__Send_ExactTarget_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label/>
+        <name>GoogleSearch</name>
+    </webLinks>
 </CustomObjectTranslation>

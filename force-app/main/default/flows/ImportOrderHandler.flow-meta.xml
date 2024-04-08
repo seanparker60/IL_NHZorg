@@ -2890,10 +2890,10 @@
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>sov_NetsuiteOrder.Status__c</leftValueReference>
-                <operator>EqualTo</operator>
+                <leftValueReference>AssignComlpete_Order</leftValueReference>
+                <operator>WasVisited</operator>
                 <rightValue>
-                    <stringValue>Completed</stringValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
