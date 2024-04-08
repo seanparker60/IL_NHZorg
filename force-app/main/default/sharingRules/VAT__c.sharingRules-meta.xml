@@ -29,11 +29,11 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>VAT_Noordhoff_Professional</fullName>
+        <fullName>VAT_Noordhoff_Zorg</fullName>
         <accessLevel>Read</accessLevel>
-        <label>VAT - Noordhoff Professional</label>
+        <label>VAT - Noordhoff Zorg</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>Subsidiary__c</field>

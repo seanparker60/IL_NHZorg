@@ -29,11 +29,11 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>Product_Component_Noordhoff_Professional</fullName>
+        <fullName>Product_Component_Noordhoff_Zorg</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Product Component - Noordhoff Professional</label>
+        <label>Product Component - Noordhoff Zorg</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>Subsidiary__c</field>

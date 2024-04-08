@@ -57,11 +57,11 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>Noordhoff_Professional</fullName>
+        <fullName>Noordhoff_Zorg</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Noordhoff Professional Assets</label>
+        <label>Noordhoff Zorg Assets</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
@@ -71,11 +71,11 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>Noordhoff_Professional_Assets_Edit</fullName>
+        <fullName>Noordhoff_Zorg_Assets_Edit</fullName>
         <accessLevel>Edit</accessLevel>
-        <label>Noordhoff Professional Assets Edit</label>
+        <label>Noordhoff Zorg Assets Edit</label>
         <sharedTo>
-            <group>Noordhoff_Professional_PCSS_Team_Group</group>
+            <group>Noordhoff_Zorg_PCSS_Team_Group</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>

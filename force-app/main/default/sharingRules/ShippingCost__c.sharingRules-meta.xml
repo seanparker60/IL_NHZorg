@@ -29,11 +29,11 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>Shipping_Cost_Noordhoff_Professional</fullName>
+        <fullName>Shipping_Cost_Noordhoff_Zorg</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Shipping Cost -Noordhoff Professional</label>
+        <label>Shipping Cost -Noordhoff Zorg</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>Subsidiary__c</field>

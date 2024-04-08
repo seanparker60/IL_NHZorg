@@ -43,31 +43,31 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessional</fullName>
+        <fullName>NoordhoffZorg</fullName>
         <accessLevel>Edit</accessLevel>
-        <label>Noordhoff Professional</label>
+        <label>Noordhoff Zorg</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalLeadsOld</fullName>
+        <fullName>NoordhoffZorgLeadsOld</fullName>
         <accessLevel>Edit</accessLevel>
-        <description>Rule to share Noordhoff Professional Leads</description>
-        <label>Noordhoff Professional Leads</label>
+        <description>Rule to share Noordhoff Zorg Leads</description>
+        <label>Noordhoff Zorg Leads</label>
         <sharedTo>
-            <roleAndSubordinates>Noordhoff_Professional_Manager</roleAndSubordinates>
+            <roleAndSubordinates>Noordhoff_Zorg_Manager</roleAndSubordinates>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

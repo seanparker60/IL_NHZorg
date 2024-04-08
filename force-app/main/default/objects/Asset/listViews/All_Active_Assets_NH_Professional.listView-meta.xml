@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>All_Active_Assets_NH_Professional</fullName>
+    <fullName>All_Active_Assets_NH_Zorg</fullName>
     <columns>ASSET.NAME</columns>
     <columns>ACCOUNT.NAME</columns>
     <columns>ASSET.QUANTITY</columns>
@@ -13,15 +13,15 @@
     <filters>
         <field>PriceBook__c</field>
         <operation>contains</operation>
-        <value>Professional</value>
+        <value>Zorg</value>
     </filters>
     <filters>
         <field>IsActive__c</field>
         <operation>equals</operation>
         <value>1</value>
     </filters>
-    <label>All Active Assets NH Professional</label>
+    <label>All Active Assets NH Zorg</label>
     <sharedTo>
-        <group>AllUsersNoordhoffProfessional</group>
+        <group>AllUsersNoordhoffZorg</group>
     </sharedTo>
 </ListView>

@@ -87,16 +87,16 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessional</fullName>
+        <fullName>NoordhoffZorg</fullName>
         <accessLevel>Read</accessLevel>
         <accountSettings>
             <caseAccessLevel>Read</caseAccessLevel>
             <contactAccessLevel>Read</contactAccessLevel>
             <opportunityAccessLevel>Read</opportunityAccessLevel>
         </accountSettings>
-        <label>Noordhoff Professional</label>
+        <label>Noordhoff Zorg</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
@@ -111,16 +111,16 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalReadWrite</fullName>
+        <fullName>NoordhoffZorgReadWrite</fullName>
         <accessLevel>Edit</accessLevel>
         <accountSettings>
             <caseAccessLevel>Edit</caseAccessLevel>
             <contactAccessLevel>Edit</contactAccessLevel>
             <opportunityAccessLevel>Edit</opportunityAccessLevel>
         </accountSettings>
-        <label>Noordhoff Professional Read/Write</label>
+        <label>Noordhoff Zorg Read/Write</label>
         <sharedTo>
-            <group>NoordhoffProfessionalEditRecords</group>
+            <group>NoordhoffZorgEditRecords</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>

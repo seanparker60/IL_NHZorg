@@ -57,30 +57,30 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalEditKnowledge</fullName>
+        <fullName>NoordhoffZorgEditKnowledge</fullName>
         <accessLevel>Edit</accessLevel>
-        <label>Noordhoff Professional Edit Knowledge</label>
+        <label>Noordhoff Zorg Edit Knowledge</label>
         <sharedTo>
-            <group>KnowledgeEditNoordhoffProfessional</group>
+            <group>KnowledgeEditNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalKnowledge</fullName>
+        <fullName>NoordhoffZorgKnowledge</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Noordhoff Professional Knowledge</label>
+        <label>Noordhoff Zorg Knowledge</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>All_Campaigns_Noordhoff_Professional</fullName>
+    <fullName>All_Campaigns_Noordhoff_Zorg</fullName>
     <columns>CAMPAIGN.NAME</columns>
     <columns>CAMPAIGN.START_DATE</columns>
     <columns>CAMPAIGN.END_DATE</columns>
@@ -13,10 +13,10 @@
     <filters>
         <field>OperatingCompany__c</field>
         <operation>equals</operation>
-        <value>Noordhoff Professional</value>
+        <value>Noordhoff Zorg</value>
     </filters>
-    <label>All Campaigns Noordhoff Professional</label>
+    <label>All Campaigns Noordhoff Zorg</label>
     <sharedTo>
-        <group>AllUsersNoordhoffProfessional</group>
+        <group>AllUsersNoordhoffZorg</group>
     </sharedTo>
 </ListView>

@@ -2,9 +2,8 @@
 <Role xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseAccessLevel>Edit</caseAccessLevel>
     <contactAccessLevel>Edit</contactAccessLevel>
-    <description>Noordhoff Professional Manager</description>
     <mayForecastManagerShare>false</mayForecastManagerShare>
-    <name>Noordhoff Professional Manager</name>
+    <name>Noordhoff Zorg Manager Sales</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Global_Admin</parentRole>
+    <parentRole>Noordhoff_Zorg_Manager</parentRole>
 </Role>

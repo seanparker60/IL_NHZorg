@@ -57,45 +57,45 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessional</fullName>
+        <fullName>NoordhoffZorg</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Noordhoff Professional</label>
+        <label>Noordhoff Zorg</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalCampaignsOld</fullName>
+        <fullName>NoordhoffZorgCampaignsOld</fullName>
         <accessLevel>Read</accessLevel>
-        <description>Sharing rule to share Noordhoff Professional Campaigns with users</description>
-        <label>Noordhoff Professional Campaigns</label>
+        <description>Sharing rule to share Noordhoff Zorg Campaigns with users</description>
+        <label>Noordhoff Zorg Campaigns</label>
         <sharedTo>
-            <roleAndSubordinates>Noordhoff_Professional_Manager</roleAndSubordinates>
+            <roleAndSubordinates>Noordhoff_Zorg_Manager</roleAndSubordinates>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalWrite</fullName>
+        <fullName>NoordhoffZorgWrite</fullName>
         <accessLevel>Edit</accessLevel>
-        <label>Noordhoff Professional</label>
+        <label>Noordhoff Zorg</label>
         <sharedTo>
-            <group>NoordhoffProfessionalEditRecords</group>
+            <group>NoordhoffZorgEditRecords</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

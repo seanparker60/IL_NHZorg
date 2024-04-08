@@ -29,11 +29,11 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalOrders</fullName>
+        <fullName>NoordhoffZorgOrders</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Noordhoff Professional Orders</label>
+        <label>Noordhoff Zorg Orders</label>
         <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
@@ -43,12 +43,12 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>Noordhoff_Professional_Orders_Edit</fullName>
+        <fullName>Noordhoff_Zorg_Orders_Edit</fullName>
         <accessLevel>Edit</accessLevel>
-        <description>To give a small group of Noordhoff Professional users (PCSS) edit rights on orders</description>
-        <label>Noordhoff Professional Orders Edit</label>
+        <description>To give a small group of Noordhoff Zorg users (PCSS) edit rights on orders</description>
+        <label>Noordhoff Zorg Orders Edit</label>
         <sharedTo>
-            <group>Noordhoff_Professional_PCSS_Team_Group</group>
+            <group>Noordhoff_Zorg_PCSS_Team_Group</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>

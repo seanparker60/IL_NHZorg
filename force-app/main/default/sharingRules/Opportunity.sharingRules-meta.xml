@@ -67,30 +67,25 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessional</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>Noordhoff Professional</label>
-        <sharedTo>
-            <group>AllUsersNoordhoffProfessional</group>
-        </sharedTo>
-        <criteriaItems>
-            <field>OperatingCompany__c</field>
-            <operation>equals</operation>
-            <value>Noordhoff</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>RecordTypeId</field>
-            <operation>equals</operation>
-            <value>Professional</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalEdit</fullName>
+        <fullName>NoordhoffOpportunities</fullName>
         <accessLevel>Edit</accessLevel>
-        <label>Noordhoff Professional</label>
+        <label>Noordhoff Opportunities</label>
         <sharedTo>
-            <group>NoordhoffProfessionalEditRecords</group>
+            <group>AllUsersNoordhoff</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OperatingCompany__c</field>
+            <operation>equals</operation>
+            <value>Noordhoff</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NoordhoffZorg</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Noordhoff Zorg</label>
+        <sharedTo>
+            <group>AllUsersNoordhoffZorg</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
@@ -105,17 +100,36 @@
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NoordhoffProfessionalOpportunitiesOld</fullName>
-        <accessLevel>Read</accessLevel>
-        <description>Rule to share Noordhoff Professional opportunities</description>
-        <label>Noordhoff Professional Opportunities</label>
+        <fullName>NoordhoffZorgEdit</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Noordhoff Zorg</label>
         <sharedTo>
-            <roleAndSubordinates>Noordhoff_Professional_Manager</roleAndSubordinates>
+            <group>NoordhoffZorgEditRecords</group>
         </sharedTo>
         <criteriaItems>
             <field>OperatingCompany__c</field>
             <operation>equals</operation>
-            <value>Noordhoff Professional</value>
+            <value>Noordhoff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Professional</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NoordhoffZorgOpportunitiesOld</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Rule to share Noordhoff Zorg opportunities</description>
+        <label>Noordhoff Zorg Opportunities</label>
+        <sharedTo>
+            <roleAndSubordinates>Noordhoff_Zorg_Manager</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>OperatingCompany__c</field>
+            <operation>equals</operation>
+            <value>Noordhoff Zorg</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

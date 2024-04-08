@@ -21,15 +21,15 @@
         <label>Infinitas Learning</label>
     </customValue>
     <customValue>
-        <fullName>Noordhoff Professional</fullName>
+        <fullName>Noordhoff Zorg</fullName>
         <default>false</default>
-        <label>Noordhoff Professional</label>
+        <label>Noordhoff Zorg</label>
     </customValue>
     <customValue>
-        <fullName>Professional</fullName>
+        <fullName>Zorg</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Professional</label>
+        <label>Zorg</label>
     </customValue>
     <masterLabel>Operating Company</masterLabel>
     <sorted>false</sorted>
