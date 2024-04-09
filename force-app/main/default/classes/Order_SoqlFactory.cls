@@ -610,10 +610,12 @@ public with sharing class Order_SoqlFactory {
        +' from Pricing__c where IsActive__c =true ';
     
        if(Type != 'Pricebookentrycreate' && Type != 'UpdatePricingfromProduct'){
-        Querystr += 'AND ((StartDate__c <=: PricebookStart AND EndDate__c >=: PricebookStart)'
+        Querystr += ' AND EndDate__c >=: CurDate'
+                    + '  AND ((StartDate__c <=: PricebookStart AND EndDate__c >=: PricebookStart)'
                     + ' OR (StartDate__c <=: PricebookEnd AND EndDate__c >=: PricebookEnd)'
                     + ' OR (StartDate__c >=: PricebookStart AND EndDate__c <=: PricebookEnd)'
                     + ' OR  (StartDate__c <=: PricebookStart AND EndDate__c >=: PricebookEnd))';
+                    
             
        } 
        if(Type == 'ProductSelector1'){
@@ -629,7 +631,8 @@ public with sharing class Order_SoqlFactory {
             Querystr += 'AND (ProductComponent__r.Product__c in: lst_ProdPriceId AND ProductComponent__r.MainProduct__c in: Set_ProdItemGroup)';
         }
        else if(Type == 'Pricebookentrycreate'){
-            Querystr += 'AND id in:lst_ProdPriceId AND ProductComponent__c = null';   
+            Querystr += 'AND id in:lst_ProdPriceId AND ProductComponent__c = null';
+                           
         }
        else if(Type == 'UpdatePricingfromProduct'){
             Querystr += 'AND (Product__c in:lst_ProdPriceId OR ProductComponent__r.Product__c in: lst_ProdPriceId)';
