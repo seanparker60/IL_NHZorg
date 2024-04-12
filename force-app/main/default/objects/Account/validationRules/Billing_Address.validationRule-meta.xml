@@ -3,7 +3,9 @@
     <fullName>Billing_Address</fullName>
     <active>true</active>
     <errorConditionFormula>if(AND(
+       
     NOT(AND(ISPICKVAL(OperatingCompany__c, &apos;Noordhoff&apos;), isProfessional__c=false))
+            
     ,NOT(ISBLANK(LastUpdateToAWS__c)),
 
     NOT($User.ValidationRulesDoNotApply__c = true),

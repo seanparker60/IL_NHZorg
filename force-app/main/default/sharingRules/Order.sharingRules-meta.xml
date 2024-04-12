@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
-        <fullName>LiberOrderViewEditAccess</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>Liber Order View Edit Access</label>
-        <sharedTo>
-            <group>AllUsersLiber</group>
-        </sharedTo>
-        <criteriaItems>
-            <field>OperatingCompany__c</field>
-            <operation>equals</operation>
-            <value>Liber</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
         <fullName>NoordhoffOrderViewEditAccess</fullName>
         <accessLevel>Edit</accessLevel>
         <label>Noordhoff Order View Edit Access</label>

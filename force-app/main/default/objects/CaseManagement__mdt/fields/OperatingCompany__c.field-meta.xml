@@ -30,6 +30,12 @@
                 <default>false</default>
                 <label>Plantyn</label>
             </value>
+            <value>
+                <fullName>Noordhoff Professional</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Noordhoff Professional</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

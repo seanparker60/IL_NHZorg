@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>NHProfessionalInactiveProducts</fullName>
+    <fullName>NHZorgInactiveProducts</fullName>
     <active>true</active>
-    <errorConditionFormula>AND(OpportunityRecordTypeName__c = &quot;Professional&quot;, 
+    <errorConditionFormula>AND(OpportunityRecordTypeName__c = &quot;Zorg&quot;, 
     ISCHANGED(StageName), 
     ISPICKVAL(StageName, &quot;Closed Won&quot;), 
     Inactive_Product_Count__c &gt; 0,

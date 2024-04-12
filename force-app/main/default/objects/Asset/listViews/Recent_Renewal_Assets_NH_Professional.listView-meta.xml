@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Recent_Renewal_Assets_NH_Zorg</fullName>
+    <fullName>Recent_Renewal_Assets_NH_Professional</fullName>
     <booleanFilter>(1 AND 2) AND (3 OR 4)</booleanFilter>
     <columns>ASSET.NAME</columns>
     <columns>ACCOUNT.NAME</columns>
@@ -14,7 +14,7 @@
     <filters>
         <field>PriceBook__c</field>
         <operation>contains</operation>
-        <value>Zorg</value>
+        <value>Professional</value>
     </filters>
     <filters>
         <field>IsActive__c</field>
@@ -31,7 +31,7 @@
         <operation>equals</operation>
         <value>NEXT_MONTH</value>
     </filters>
-    <label>Recent Renewal Assets NH Zorg</label>
+    <label>Recent Renewal Assets NH Professional</label>
     <sharedTo>
         <group>AllUsersNoordhoffZorg</group>
     </sharedTo>

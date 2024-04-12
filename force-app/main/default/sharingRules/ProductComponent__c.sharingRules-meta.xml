@@ -15,20 +15,6 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>Product_Component_Noordhoff</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>Product Component - Noordhoff</label>
-        <sharedTo>
-            <group>AllUsersNoordhoff</group>
-        </sharedTo>
-        <criteriaItems>
-            <field>Subsidiary__c</field>
-            <operation>equals</operation>
-            <value>Noordhoff</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
         <fullName>Product_Component_Noordhoff_Zorg</fullName>
         <accessLevel>Read</accessLevel>
         <label>Product Component - Noordhoff Zorg</label>
@@ -39,20 +25,6 @@
             <field>Subsidiary__c</field>
             <operation>equals</operation>
             <value>Noordhoff</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>Product_Component_Plantyn</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>Product Component - Plantyn</label>
-        <sharedTo>
-            <group>AllUsersPlantyn</group>
-        </sharedTo>
-        <criteriaItems>
-            <field>Subsidiary__c</field>
-            <operation>equals</operation>
-            <value>Plantyn</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

@@ -3,8 +3,8 @@
     <fullName>ValidateEmailsRequired2__c</fullName>
     <externalId>false</externalId>
     <formula>IF(OR(
-        AND(
-        ISPICKVAL(OperatingCompany__c, &apos;Noordhoff&apos;), isProfessional__c = true),
+        /*AND(
+        ISPICKVAL(OperatingCompany__c, &apos;Noordhoff&apos;), isProfessional__c = true),*/
 	  ISPICKVAL(OperatingCompany__c, &apos;Noordhoff Zorg&apos;)),
 	  false,
 	  OR(OrderNotificationEmail__c = null, DigitalActivationEmail__c = null)

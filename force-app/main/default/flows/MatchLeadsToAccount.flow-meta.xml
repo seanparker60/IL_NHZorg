@@ -401,7 +401,6 @@
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>YesAccountIsCorrect</name>
-            
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>sov_Lead.Account__r.OperatingCompany__c</leftValueReference>
@@ -567,7 +566,7 @@
         <connector>
             <targetReference>CountAccountRecords</targetReference>
         </connector>
-        <filterLogic>1 AND ((2 AND 3) OR (4 AND 5)) </filterLogic>
+        <filterLogic>1 AND ((2 AND 3) OR (4 AND 5))</filterLogic>
         <filters>
             <field>OperatingCompany__c</field>
             <operator>EqualTo</operator>
@@ -603,7 +602,6 @@
                 <booleanValue>false</booleanValue>
             </value>
         </filters>
-        
         <object>Account</object>
         <outputReference>soc_Accounts</outputReference>
         <queriedFields>Id</queriedFields>
